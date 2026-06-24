@@ -1,30 +1,42 @@
-(PT/BR)# 🌡️ Temperature Converter (Java)
+(PT/BR)# 🌡️ Temperature Conversion System (Java Console Application)
 
-This is a simple Java console application that converts temperatures between **Celsius (°C)** and **Fahrenheit (°F)**.
+Este projeto é uma aplicação de console desenvolvida em Java que realiza conversões de temperatura entre Celsius e Fahrenheit.
 
-## 📌 Features
+## 🚀 Objetivo
 
-The user enters a temperature and chooses the conversion unit:
+Praticar lógica de programação, entrada de dados e operadores condicionais em Java através de um sistema interativo de conversão de temperaturas.
 
-- Convert to Celsius (C)
-- Convert to Fahrenheit (F)
+## ⚙️ Funcionalidades
 
-## ⚙️ Conversion formulas
+- Entrada de temperatura pelo usuário
+- Escolha da unidade de conversão (Celsius ou Fahrenheit)
+- Conversão automática com base na escolha
+- Normalização da entrada com `toUpperCase()`
+
+## 🧮 Fórmulas utilizadas
 
 - Fahrenheit → Celsius: `(temp - 32) * 5/9`  
 - Celsius → Fahrenheit: `(temp * 5/9) + 32`
 
-## 🧠 How it works
+## 🧠 Conceitos aplicados
 
-- User input is handled using `Scanner`
-- Conversion is based on user selection
-- Input is normalized using `toUpperCase()`
-- A ternary operator is used to simplify logic
+- Entrada de dados com `Scanner`
+- Estruturas condicionais (operador ternário)
+- Manipulação de strings
+- Lógica de decisão simples
 
-## 🛠️ Technologies used
+## 🛠️ Tecnologias
 
 - Java
-- Scanner (console input)
+- Terminal / Console
+
+## 📌 Resultado
+
+O usuário insere uma temperatura e escolhe a conversão desejada, recebendo o resultado imediatamente no terminal.
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para prática de lógica de programação em Java.
 
 (EN)# 🌡️ Temperature Converter (Java)
 
